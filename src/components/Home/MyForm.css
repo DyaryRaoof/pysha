@@ -1,0 +1,12 @@
+#dropdown-basic {
+  background-color: #461111;
+  margin-right: 20px;
+}
+
+.dropdown-plus-form {
+  display: flex;
+}
+
+#home-search-form {
+  width: 40vw;
+}

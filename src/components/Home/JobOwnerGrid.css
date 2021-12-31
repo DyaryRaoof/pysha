@@ -1,0 +1,8 @@
+#job-owner-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.mycard {
+  margin-bottom: 20px;
+}
