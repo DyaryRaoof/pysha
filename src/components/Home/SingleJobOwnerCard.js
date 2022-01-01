@@ -1,8 +1,10 @@
 import { Card, Button } from 'react-bootstrap';
+import { useHistory, useNavigate } from 'react-router-dom';
 import './SingleJobOwnerCard.css';
 import me from '../../imgs/me.jpeg';
 
 const SingleJobOwnerCard = ({ job }) => {
+  const navigate = useNavigate();
   return (
     <Card>
       <Card.Img variant="top" src={me} />
@@ -27,6 +29,9 @@ const SingleJobOwnerCard = ({ job }) => {
               borderColor: 'black',
               width: '100px',
             }}
+            onClick={() =>
+              navigate('/owner-detail', { state: { jobOwner: job } })
+            }
           >
             Detail
           </Button>

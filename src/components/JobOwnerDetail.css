@@ -1,0 +1,21 @@
+#job-owner-detail-top-info {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#job-owner-detail-profile-img {
+  width: 150px;
+  height: 150px;
+}
+
+.job-owner-detail-value-pair {
+  display: flex;
+}
+
+.brown-color {
+  color: #461111;
+  font-weight: bold;
+}
